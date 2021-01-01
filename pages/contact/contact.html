@@ -411,9 +411,6 @@ permalink: /contact/
             </div>
         </fieldset>
         
-        {% include yesno.html legend="Do you believe you have problems with face recognition?" name="problems" required=true %}
-
-        {% include yesno.html legend="Do you believe that your family members have problems with face recognition?" name="family" required=true %}
 
     </section>
     <br>
@@ -425,34 +422,31 @@ permalink: /contact/
             If you are writing long responses, you may want to write your responses in a seperate word document on your computer and paste them into this webpage. This will prevent you from accidentally losing all of your typed responses if something goes wrong with your browser or the webpage.
         </p>
         
-        {% include textarea.html label="Please describe some incidents in which you have been unable to recognize other people." name="incidents" required=false %}
+        {% include textarea.html label="Please describe several incidents that suggest your face recognition is far superior to most other people." name="incidents" required=false %}
         <br>
 
-        {% include textarea.html label="How do you typically recognize others?" name="recognize" required=false %}
+        {% include textarea.html label="Do you believe you have any other perceptual or cognitive abilities that are also extraordinary? If so, what are they?" name="other_super_abilities" required=false %}
         <br>
 
-        {% include textarea.html label="When did you realize that you might have face recognition problems?" name="when_problems" required=false %}
+        {% include textarea.html label="Do you sometimes believe you’ve recognized a face but it turns out to be someone you haven’t seen before? If yes, how often does this happen?" name="never_seen" required=false %}
         <br>
         
-        {% include textarea.html label="Have you ever experienced brain damage, brain surgery, head trauma, amblyopia (lazy eye), strabismus, cataracts early in life, severe untreated myopia, or other serious visual problems?" name="visual_problems" required=false %}
+        {% include textarea.html label="When you recognize a face you have not had much experience with, do you usually recall where and when you encountered the face?" name="where_when" required=false %}
         <br>
 
-        {% include textarea.html label="Do you believe that you have any other face processing difficulties such as reading facial expressions, eye gaze, sex, age, or attractiveness from the face?" name="face_perception" required=false %}
+        {% include textarea.html label="Do you believe that any of your other face perception abilities are extraordinary? For example, do you think can you read facial expressions or estimate age from the face better than others?" name="face_percepetion" required=false %}
         <br>
 
-        {% include textarea.html label="Do you believe that you have trouble recognizing non-facial objects such as cars, animals, or places?" name="face_problems" required=false %}
+        {% include textarea.html label="Do you feel that you “see” faces in objects (e.g. – The Man on the Moon) more often than other people? " name="faceInObject" required=false %}
         <br>
 
-        {% include textarea.html label="Do you believe that your navigational abilities are poor compared to others?" name="navigation" required=false %}
+        {% include textarea.html label="Do you believe any of your perceptual or cognitive abilities are worse than most other people’s abilities?" name="worse_abilities" required=false %}
         <br>
 
-        {% include textarea.html label="Do you think that any of your family members share your difficulties with faces or have other neurological problems? If so, please provide their relationship to you and their difficulties." name="family_members" required=false %}
-        <br>
+        {% include textarea.html label="Do any of your relatives share your extraordinary abilities with faces?" name="family_members" required=false %}
+        
 
-        {% include textarea.html label="Do you think that you have any other neurological problems? If yes, please describe them." name="other_problems" required=false %}
-        <br>
-
-        {% include textarea.html label="Is there anything else that you think is relevant to your condition?" name="other_relevant" required=false %}
+        
 
     </section>
     <section class="section" style="display:none">
