@@ -1,8 +1,8 @@
 ---
 layout: content
-title: Success! - Contact Us - Supers
+title: Success! - Followup Questionnaire - Supers
 description:
-heading: Contact Us
+heading: Follow-up Quesionnaire
 permalink: /contact/success
 ---
 ## You sucessfully submitted your form!
